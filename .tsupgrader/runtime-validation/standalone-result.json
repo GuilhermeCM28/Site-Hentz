@@ -1,0 +1,121 @@
+{
+  "planHash": "81691d42cde3f4f7f7a64a7aa0bfede60251361113fc04e1a2de4bdfdacbe966",
+  "phase": "standalone",
+  "recordedAtUtc": "2026-11-11T18:10:43.4418418Z",
+  "retryCount": 1,
+  "resetBaseline": false,
+  "complete": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 0,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "project-tests-pass",
+        "kind": "process",
+        "verificationMethod": "test-results",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E site-hentz@0.1.0 test\r\n\u003E node --test tests/*.test.mjs\r\n\r\n\u2714 builds a WhatsApp link with the configured contact and quote details (1.0514ms)\r\n\u2714 rejects a WhatsApp contact without a phone number (0.4299ms)\r\n\u2139 tests 2\r\n\u2139 suites 0\r\n\u2139 pass 2\r\n\u2139 fail 0\r\n\u2139 cancelled 0\r\n\u2139 skipped 0\r\n\u2139 todo 0\r\n\u2139 duration_ms 92.4386\r\n",
+        "durationMs": 708,
+        "testResults": {
+          "testFramework": "unknown",
+          "runnerDetectedFrom": "none",
+          "testsTotal": 0,
+          "testsPassed": 0,
+          "testsFailed": 0,
+          "testsSkipped": 0,
+          "parseFailed": true
+        }
+      },
+      {
+        "name": "home-route-serves",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022pt-BR\u0022 class=\u0022coolvetica_5ee8dcde-module__1eBJ_q__className coolvetica_5ee8dcde-module__1eBJ_q__variable h-full antialiased\u0022\u003E\u003Chead\u003E\u003Cmeta charSet=\u0022utf-8\u0022/\u003E\u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1\u0022/\u003E\u003Clink rel=\u0022stylesheet\u0022 href=\u0022/_next/static/chunks/src_app_1femccg3gewn0._.css\u0022 data-precedence=\u0022next_static/chunks/src_app_1femccg3gewn0._.css\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022script\u0022 fetchPriority=\u0022low\u0022 href=\u0022/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_0oc3hfxhoz2c3._.js\u0022/\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_090k2jmam7qwg.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/1daa_next_dist_compiled_react-dom_cjs_react-dom-client_development_0mp0cp_t-ezj9.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/1q96_modules_next_dist_compiled_react-dom_cjs_react-dom_development_1sqry0_53krp4.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_react-dom_0grqycjrj6mju._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-67asdr9._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_1amofcmz--cdp._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_client_1ohys4wzsw--s._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_%40swc_helpers_cjs_1r9vbqwj2323d._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/_1anvha4rlo79g._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/turbopack-_1nhx3glkvfrg4._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/_200g8m4x-c0in._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_20wefz_f1k6jn._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_0pl33c_yo5c5t._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/src_components_0p810dt7yeyf7._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Ctitle\u003EHentz | Energia \u0026amp; Mobilidade\u003C/title\u003E\u003Cmeta name=\u0022description\u0022 content=\u0022Solu\u00E7\u00F5es em energia solar e mobilidade el\u00E9trica para acompanhar voc\u00EA.\u0022/\u003E\u003Clink rel=\u0022icon\u0022 href=\u0022/favicon.ico?favicon.117ezoe8m31dk.ico\u0022 sizes=\u002248x48\u0022 type=\u0022image/x-icon\u0022/\u003E\u003Cmeta name=\u0022next-size-adjust\u0022 content=\u0022\u0022/\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js\u0022 noModule=\u0022\u0022\u003E\u003C/script\u003E\u003C/head\u003E\u003Cbody class=\u0022min-h-full flex flex-col\u0022\u003E\u003Cdiv hidden=\u0022\u0022\u003E\u003C!--$--\u003E\u003C!--/$--\u003E\u003C/div\u003E\u003C!--\u0026--\u003E\u003Cdiv class=\u0022flex min-h-screen flex-col bg-white\u0022\u003E\u003Cheader class=\u0022sticky top-0 z-50 w-full border-b border-white/10 bg-black text-white backdrop-blur supports-[backdrop-filter]:bg-black/95\u0022\u003E\u003Cdiv class=\u0022container mx-auto flex h-20 items-center justify-between px-4\u0022\u003E\u003Ca class=\u0022flex items-center gap-2.5\u0022 href=\u0022/\u0022\u003E\u003Cdiv class=\u0022flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white shadow-sm\u0022\u003E\u003Csvg xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002224\u0022 height=\u002224\u0022 viewBox=\u00220 0 24 24\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 stroke-width=\u00222\u0022 stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 class=\u0022lucide lucide-sun h-6 w-6 stroke-[2.2]\u0022 aria-hidden=\u0022true\u0022\u003E\u003Ccircle cx=\u002212\u0022 cy=\u002212\u0022 r=\u00224\u0022\u003E\u003C/circle\u003E\u003Cpath d=\u0022M12 2v2\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022M12 20v2\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022m4.93 4.93 1.41 1.41\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022m17.66 17.66 1.41 1.41\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022M2 12h2\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022M20 12h2\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022m6.34 17.66-1.41 1.41\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022m19.07 4.93-1.41 1.41\u0022\u003E\u003C/path\u003E\u003C/svg\u003E\u003C/div\u003E\u003Cdiv class=\u0022flex flex-col\u0022\u003E\u003Cspan class=\u0022text-xl font-bold tracking-tight text-white leading-none\u0022\u003EHENTZ\u003C/span\u003E\u003Cspan class=\u0022text-[11px] font-medium text-white/75 flex items-center gap-0.5 mt-0.5\u0022\u003E\u003Csvg xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002224\u0022 height=\u002224\u0022 viewBox=\u00220 0 24 24\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 stroke-width=\u00222\u0022 stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 class=\u0022lucide lucide-zap h-3 w-3 fill-white/75\u0022 aria-hidden=\u0022true\u0022\u003E\u003Cpath d=\u0022M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h\n\u2026[truncated]",
+        "durationMs": 101
+      },
+      {
+        "name": "solar-route-serves",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022pt-BR\u0022 class=\u0022coolvetica_5ee8dcde-module__1eBJ_q__className coolvetica_5ee8dcde-module__1eBJ_q__variable h-full antialiased\u0022\u003E\u003Chead\u003E\u003Cmeta charSet=\u0022utf-8\u0022/\u003E\u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1\u0022/\u003E\u003Clink rel=\u0022stylesheet\u0022 href=\u0022/_next/static/chunks/src_app_1femccg3gewn0._.css\u0022 data-precedence=\u0022next_static/chunks/src_app_1femccg3gewn0._.css\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022script\u0022 fetchPriority=\u0022low\u0022 href=\u0022/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_0oc3hfxhoz2c3._.js\u0022/\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_090k2jmam7qwg.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/1daa_next_dist_compiled_react-dom_cjs_react-dom-client_development_0mp0cp_t-ezj9.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/1q96_modules_next_dist_compiled_react-dom_cjs_react-dom_development_1sqry0_53krp4.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_react-dom_0grqycjrj6mju._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-67asdr9._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_1amofcmz--cdp._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_client_1ohys4wzsw--s._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_%40swc_helpers_cjs_1r9vbqwj2323d._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/_1anvha4rlo79g._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/turbopack-_1nhx3glkvfrg4._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/_0ep_lxd5swpfr._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_20wefz_f1k6jn._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_0pl33c_yo5c5t._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/src_components_0p810dt7yeyf7._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Ctitle\u003EHentz | Energia \u0026amp; Mobilidade\u003C/title\u003E\u003Cmeta name=\u0022description\u0022 content=\u0022Solu\u00E7\u00F5es em energia solar e mobilidade el\u00E9trica para acompanhar voc\u00EA.\u0022/\u003E\u003Clink rel=\u0022icon\u0022 href=\u0022/favicon.ico?favicon.117ezoe8m31dk.ico\u0022 sizes=\u002248x48\u0022 type=\u0022image/x-icon\u0022/\u003E\u003Cmeta name=\u0022next-size-adjust\u0022 content=\u0022\u0022/\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js\u0022 noModule=\u0022\u0022\u003E\u003C/script\u003E\u003C/head\u003E\u003Cbody class=\u0022min-h-full flex flex-col\u0022\u003E\u003Cdiv hidden=\u0022\u0022\u003E\u003C!--$--\u003E\u003C!--/$--\u003E\u003C/div\u003E\u003C!--\u0026--\u003E\u003Cdiv class=\u0022flex min-h-screen flex-col bg-white\u0022\u003E\u003Cheader class=\u0022sticky top-0 z-50 w-full border-b border-white/10 bg-black text-white backdrop-blur supports-[backdrop-filter]:bg-black/95\u0022\u003E\u003Cdiv class=\u0022container mx-auto flex h-20 items-center justify-between px-4\u0022\u003E\u003Ca class=\u0022flex items-center gap-2.5\u0022 href=\u0022/\u0022\u003E\u003Cdiv class=\u0022flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white shadow-sm\u0022\u003E\u003Csvg xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002224\u0022 height=\u002224\u0022 viewBox=\u00220 0 24 24\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 stroke-width=\u00222\u0022 stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 class=\u0022lucide lucide-sun h-6 w-6 stroke-[2.2]\u0022 aria-hidden=\u0022true\u0022\u003E\u003Ccircle cx=\u002212\u0022 cy=\u002212\u0022 r=\u00224\u0022\u003E\u003C/circle\u003E\u003Cpath d=\u0022M12 2v2\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022M12 20v2\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022m4.93 4.93 1.41 1.41\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022m17.66 17.66 1.41 1.41\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022M2 12h2\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022M20 12h2\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022m6.34 17.66-1.41 1.41\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022m19.07 4.93-1.41 1.41\u0022\u003E\u003C/path\u003E\u003C/svg\u003E\u003C/div\u003E\u003Cdiv class=\u0022flex flex-col\u0022\u003E\u003Cspan class=\u0022text-xl font-bold tracking-tight text-white leading-none\u0022\u003EHENTZ\u003C/span\u003E\u003Cspan class=\u0022text-[11px] font-medium text-white/75 flex items-center gap-0.5 mt-0.5\u0022\u003E\u003Csvg xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002224\u0022 height=\u002224\u0022 viewBox=\u00220 0 24 24\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 stroke-width=\u00222\u0022 stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 class=\u0022lucide lucide-zap h-3 w-3 fill-white/75\u0022 aria-hidden=\u0022true\u0022\u003E\u003Cpath d=\u0022M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h\n\u2026[truncated]",
+        "durationMs": 155
+      },
+      {
+        "name": "quote-route-serves",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022pt-BR\u0022 class=\u0022coolvetica_5ee8dcde-module__1eBJ_q__className coolvetica_5ee8dcde-module__1eBJ_q__variable h-full antialiased\u0022\u003E\u003Chead\u003E\u003Cmeta charSet=\u0022utf-8\u0022/\u003E\u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1\u0022/\u003E\u003Clink rel=\u0022stylesheet\u0022 href=\u0022/_next/static/chunks/src_app_1femccg3gewn0._.css\u0022 data-precedence=\u0022next_static/chunks/src_app_1femccg3gewn0._.css\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022script\u0022 fetchPriority=\u0022low\u0022 href=\u0022/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_0oc3hfxhoz2c3._.js\u0022/\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_090k2jmam7qwg.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/1daa_next_dist_compiled_react-dom_cjs_react-dom-client_development_0mp0cp_t-ezj9.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/1q96_modules_next_dist_compiled_react-dom_cjs_react-dom_development_1sqry0_53krp4.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_react-dom_0grqycjrj6mju._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-67asdr9._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_1amofcmz--cdp._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_client_1ohys4wzsw--s._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_%40swc_helpers_cjs_1r9vbqwj2323d._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/_1anvha4rlo79g._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/turbopack-_1nhx3glkvfrg4._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/_14_ott5v9x-2s._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_20wefz_f1k6jn._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_0pl33c_yo5c5t._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/src_components_0p810dt7yeyf7._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_react-hook-form_dist_index_esm_mjs_0b0kr13k-yekm._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_zod_v4_classic_1qec8luej0g46._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_zod_v4_core_14qn2mg1f8pkp._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_zod_v4_locales_1-ided7izgr--._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_00pf6pjgxd0tc._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/src_08aohc3bsyie3._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Ctitle\u003EHentz | Energia \u0026amp; Mobilidade\u003C/title\u003E\u003Cmeta name=\u0022description\u0022 content=\u0022Solu\u00E7\u00F5es em energia solar e mobilidade el\u00E9trica para acompanhar voc\u00EA.\u0022/\u003E\u003Clink rel=\u0022icon\u0022 href=\u0022/favicon.ico?favicon.117ezoe8m31dk.ico\u0022 sizes=\u002248x48\u0022 type=\u0022image/x-icon\u0022/\u003E\u003Cmeta name=\u0022next-size-adjust\u0022 content=\u0022\u0022/\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js\u0022 noModule=\u0022\u0022\u003E\u003C/script\u003E\u003C/head\u003E\u003Cbody class=\u0022min-h-full flex flex-col\u0022\u003E\u003Cdiv hidden=\u0022\u0022\u003E\u003C!--$--\u003E\u003C!--/$--\u003E\u003C/div\u003E\u003C!--\u0026--\u003E\u003Cdiv class=\u0022flex min-h-screen flex-col bg-white\u0022\u003E\u003Cheader class=\u0022sticky top-0 z-50 w-full border-b border-white/10 bg-black text-white backdrop-blur supports-[backdrop-filter]:bg-black/95\u0022\u003E\u003Cdiv class=\u0022container mx-auto flex h-20 items-center justify-between px-4\u0022\u003E\u003Ca class=\u0022flex items-center gap-2.5\u0022 href=\u0022/\u0022\u003E\u003Cdiv class=\u0022flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white shadow-sm\u0022\u003E\u003Csvg xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002224\u0022 height=\u002224\u0022 viewBox=\u00220 0 24 24\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 stroke-width=\u00222\u0022 stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 class=\u0022lucide lucide-sun h-6 w-6 stroke-[2.2]\u0022 aria-hidden=\u0022true\u0022\u003E\u003Ccircle cx=\u002212\u0022 cy=\u002212\u0022 r=\u00224\u0022\u003E\u003C/circle\u003E\u003Cpath d=\u0022M12 2v2\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022M12 20v2\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022m4.93 4.93 1.41 1.41\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022m17.66 17.66 1.41 1.41\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022M2 12h2\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022M20 12h2\u0022\u003E\u003C/path\u003E\u003Cpath d=\u0022m6.34 17.66-1.41 1.41\u0022\u003E\u003C/path\u003E\u003Cpat\n\u2026[truncated]",
+        "durationMs": 120
+      }
+    ],
+    "executions": [
+      {
+        "source": "project-tests-pass",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "test"
+        ],
+        "cwd": "C:\\site-hentz",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "home-route-serves",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "dev"
+        ],
+        "cwd": "C:\\site-hentz",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "solar-route-serves",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "dev"
+        ],
+        "cwd": "C:\\site-hentz",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "quote-route-serves",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "dev"
+        ],
+        "cwd": "C:\\site-hentz",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      }
+    ]
+  }
+}

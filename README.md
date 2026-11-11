@@ -20,6 +20,16 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Páginas públicas
+
+- `/energia-solar`: funcionamento da energia fotovoltaica, etapas do projeto e
+  perguntas frequentes.
+- `/orcamento`: formulário de captação que abre o WhatsApp para o cliente
+  revisar e enviar os dados. O contato comercial fica em
+  `src/lib/whatsapp-quote.mjs`.
+
+Execute os testes do link de orçamento com `npm test`.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
